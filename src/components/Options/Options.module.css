@@ -1,0 +1,30 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 115px;
+    height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .list {
+        flex-direction: row;
+        gap: 14px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .list {
+        gap: 18px;
+    }
+
+    .btn {
+        width: 125px;
+        height: 45px;
+    }
+}

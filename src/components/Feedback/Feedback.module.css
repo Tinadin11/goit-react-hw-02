@@ -1,0 +1,29 @@
+.feedback {
+    color: #f4f4f6;
+}
+
+.total {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.positive {
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(90deg, #fafafa, #ff7300, #646cff, #f0efef);
+    background-size: 200% 100%;
+    animation: backgroundAnimation 5s ease infinite;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 200% 0%;
+    }
+
+    100% {
+        background-position: -200% 0%;
+    }
+}

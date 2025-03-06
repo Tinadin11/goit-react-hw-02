@@ -7,8 +7,18 @@
 }
 
 .btn {
-    width: 115px;
+    width: 120px;
     height: 40px;
+}
+
+.btn:hover,
+.btn:focus {
+    color: aliceblue;
+    background-color: #1f1a25;
+    transform: scale(0.98);
+    font-weight: bold;
+    box-shadow: 3px 4px 4px rgba(0, 128, 255, 0.2);
+    transition: all 0.3s ease;
 }
 
 @media screen and (min-width: 768px) {
